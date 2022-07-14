@@ -21,7 +21,7 @@ let ofertas = [
 
 let ofertasConInteres = [];
 
-for(let i = 0; i <= ofertas.length; i++){
+for(let i = 0; i < ofertas.length; i++){
     let actual = ofertas[i];
     let interes = 100;
     ofertasConInteres.push(
